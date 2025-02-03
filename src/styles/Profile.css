@@ -1,0 +1,63 @@
+/* General Layout */
+.profile-container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: repeat(2, auto); /* Two rows */
+    gap: 20px; /* Space between cards */
+    background-color: #f8f9fa;
+    padding: 40px;
+    box-sizing: border-box;
+    justify-items: stretch; /* Ensure cards take full column width */
+  }
+  
+  /* Card Styling */
+  .card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .card p {
+    margin: 8px 0;
+  }
+  
+  /* Search Box Styling */
+  .search-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-right: none;
+    border-radius: 6px 0 0 6px;
+  }
+  
+  .search-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .profile-container {
+      grid-template-columns: 1fr; /* Stack cards vertically on smaller screens */
+      grid-template-rows: auto;
+    }
+  }
+  
