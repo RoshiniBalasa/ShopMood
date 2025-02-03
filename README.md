@@ -30,8 +30,8 @@ Interactive Shopping: Add products to mood boards and add them directly to the c
    ![image](https://github.com/user-attachments/assets/4c876e7e-dbee-43cc-b919-67aef085d9a2)
 
 # Upcoming Features 🔮
-AI for product try-on: Try the product virtually using AI.
-Social Sharing: Share your mood boards with friends.
-Enhanced Filters: Add more categories for refined searching.
+1. AI for product try-on: Try the product virtually using AI.
+2. Social Sharing: Share your mood boards with friends.
+3. Enhanced Filters: Add more categories for refined searching.
 
 
